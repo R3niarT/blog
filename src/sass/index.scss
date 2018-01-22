@@ -1,0 +1,18 @@
+body{
+    font-family: monospace;
+    text-align:center;
+    display:flex;
+}
+$color-green:#06d106;
+
+.gallery{
+    border:1px solid $color-green;
+    width:80%;
+    margin:auto;
+    min-height: 200px;
+    item{
+        width:50%;
+        border:1px solid black;
+        margin:auto;
+    }
+}
